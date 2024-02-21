@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Before running the application
+
+## Environment Variables
+
+For this app to work, you will need to configure the following environment variables in your .env.local file. Create one in the root of your project and add
+
+```
+MAPBOX_API=<value>
+UNSPLASH_ACCESS_KEY=<value>
+AIRTABLE_TOKEN=<value>
+
+```
+
+#### PLEASE NOTE,
+
+You will need to create accounts, projects, and then generate keys for each platform.
 
 ## Getting Started
 
@@ -15,10 +30,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
